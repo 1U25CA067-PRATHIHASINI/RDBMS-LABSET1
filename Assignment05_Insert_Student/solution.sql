@@ -16,8 +16,24 @@ CREATE TABLE Student(
 
 -- 1001 Arun
 
+INSERT INTO Student (StudentID, StudentName, DOB, Gender, DepartmentID)
+VALUES (1001, "Arun", "2004-05-10", "Male", 101);
+
+
 -- 1002 Divya
+
+INSERT INTO Student (StudentID, StudentName, DOB, Gender, DepartmentID)
+VALUES (1002, "Divya", "2003-11-20", "Female", 102);
+
 
 -- 1003 Karthik
 
+INSERT INTO STUDENT1 (StudentID, StudentName, DOB, Gender, DepartmentID)
+VALUES (1003, "Karthik", "2004-01-15", "Male", 101);
+
+
 -- Display all records
+
+SELECT * FROM Student;
+
+DESC Student;
