@@ -11,9 +11,7 @@ CREATE TABLE Student(
 );
 
 -- Alter Student table
-
--- Add Email
-
--- Add PhoneNumber
+ALTER TABLE Student ADD (Email VARCHAR(30),PhoneNumber INT(10));
 
 -- Display structure
+DESC Student;
