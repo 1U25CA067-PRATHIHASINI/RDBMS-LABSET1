@@ -16,5 +16,6 @@ USE CollegeDB;
 -- Create Department Table
 
 CREATE TABLE Department(
-DepartmentID int primary key,            DepartmentName Varchar(10),
+DepartmentID int primary key,
+DepartmentName Varchar(10),
 HOD varchar(10));
