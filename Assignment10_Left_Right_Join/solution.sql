@@ -50,15 +50,13 @@ VALUES (4, 1003, 201);
 
 -- LEFT JOIN
 
-SELECT *
-FROM Course
+SELECT * FROM Course
 LEFT JOIN Enrollment
 ON Course.CourseID = Enrollment.CourseID;
 
 
 -- RIGHT JOIN
 
-SELECT *
-FROM Course
+SELECT * FROM Course
 RIGHT JOIN Enrollment
 ON Course.CourseID = Enrollment.CourseID;
