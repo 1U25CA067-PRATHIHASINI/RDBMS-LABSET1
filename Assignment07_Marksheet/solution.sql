@@ -5,7 +5,7 @@ CREATE TABLE Marksheet (
     RollNo INT,
     Name VARCHAR(50),
     Department VARCHAR(50),
-    Marks INT,
+    Marks INT
 );
 
 -- Insert sample records
