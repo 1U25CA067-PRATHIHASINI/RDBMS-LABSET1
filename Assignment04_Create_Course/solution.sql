@@ -1,5 +1,3 @@
-DROP DATABASE IF EXISTS CollegeDB;
-CREATE DATABASE CollegeDB;
 USE CollegeDB;
 
 -- Create Course table
@@ -11,5 +9,5 @@ INSERT INTO Course(courseID,courseName,credits,DepartmentID) VALUES (20,"BCA",13
 INSERT INTO Course(courseID,courseName,credits,DepartmentID) VALUES (30,"BCA",14,1);
 
 -- Display structure
-SELECT*FROM Course;
+SELECT * FROM Course;
 DESC Course;
