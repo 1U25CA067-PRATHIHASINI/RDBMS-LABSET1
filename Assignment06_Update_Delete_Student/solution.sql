@@ -7,7 +7,7 @@ CREATE TABLE Student(
     Gender VARCHAR(10),
     DepartmentID INT(5),
     Email VARCHAR(30),
-    PhoneNumber INT(20),
+    PhoneNumber INT(20)
 );
 
 INSERT INTO Student(StudentID,StudentName,Gender,DepartmentID) VALUES
