@@ -1,7 +1,6 @@
-DROP DATABASE IF EXISTS CollegeDB;
-CREATE DATABASE CollegeDB;
 USE CollegeDB;
 
+--Create table student
 CREATE TABLE Student(
     StudentID INT(5) PRIMARY KEY,
     StudentName VARCHAR(20) NOT NULL,
