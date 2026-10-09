@@ -1,25 +1,15 @@
-DROP DATABASE IF EXISTS CollegeDB;
-CREATE DATABASE CollegeDB;
 USE CollegeDB;
 
-
 -- Create Department
-
 CREATE TABLE Department (
     DepartmentID INT,
     DepartmentName VARCHAR(50)
 );
 
 -- Insert sample records (department)
-
-INSERT INTO Department (DepartmentID, DepartmentName)
-VALUES (101, 'Computer Science');
-
-INSERT INTO Department (DepartmentID, DepartmentName)
-VALUES (102, 'Mathematics');
-
-INSERT INTO Department (DepartmentID, DepartmentName)
-VALUES (103, 'Physics');
+INSERT INTO Department (DepartmentID, DepartmentName) VALUES (101, 'Computer Science');
+INSERT INTO Department (DepartmentID, DepartmentName) VALUES (102, 'Mathematics');
+INSERT INTO Department (DepartmentID, DepartmentName) VALUES (103, 'Physics');
 
 -- Create Student
 CREATE TABLE Student (
@@ -31,17 +21,10 @@ CREATE TABLE Student (
 
 -- Insert sample records (student)
 
-INSERT INTO Student (StudentID, StudentName, DepartmentID)
-VALUES (1001, 'Arun', 101);
-
-INSERT INTO Student (StudentID, StudentName, DepartmentID)
-VALUES (1002, 'Divya', 102);
-
-INSERT INTO Student (StudentID, StudentName, DepartmentID)
-VALUES (1003, 'Karthik', 101);
-
-INSERT INTO Student (StudentID, StudentName, DepartmentID)
-VALUES (1004, 'Nisha', 103);
+INSERT INTO Student (StudentID, StudentName, DepartmentID) VALUES (1001, 'Arun', 101);
+INSERT INTO Student (StudentID, StudentName, DepartmentID) VALUES (1002, 'Divya', 102);
+INSERT INTO Student (StudentID, StudentName, DepartmentID) VALUES (1003, 'Karthik', 101);
+INSERT INTO Student (StudentID, StudentName, DepartmentID) VALUES (1004, 'Nisha', 103);
 
 -- INNER JOIN query
 
