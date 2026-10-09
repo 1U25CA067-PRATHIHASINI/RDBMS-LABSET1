@@ -1,5 +1,3 @@
-DROP DATABASE IF EXISTS CollegeDB;
-CREATE DATABASE CollegeDB;
 USE CollegeDB;
 
 CREATE TABLE Student(
@@ -9,31 +7,17 @@ CREATE TABLE Student(
     Gender VARCHAR(10),
     DepartmentID INT(5),
     Email VARCHAR(30),
-    PhoneNumber BIGINT
+    PhoneNumber INT(20),
 );
 
--- Insert
-
 -- 1001 Arun
-
-INSERT INTO Student (StudentID, StudentName, DOB, Gender, DepartmentID)
-VALUES (1001, "Arun", "2004-05-10", "Male", 101);
-
-
+INSERT INTO Student (StudentID, StudentName, DOB, Gender, DepartmentID) VALUES (1001, "Arun", "2004-05-10", "Male", 101);
 -- 1002 Divya
-
-INSERT INTO Student (StudentID, StudentName, DOB, Gender, DepartmentID)
-VALUES (1002, "Divya", "2003-11-20", "Female", 102);
-
-
+INSERT INTO Student (StudentID, StudentName, DOB, Gender, DepartmentID) VALUES (1002, "Divya", "2003-11-20", "Female", 102);
 -- 1003 Karthik
-
-INSERT INTO Student (StudentID, StudentName, DOB, Gender, DepartmentID)
-VALUES (1003, "Karthik", "2004-01-15", "Male", 101);
-
+INSERT INTO Student (StudentID, StudentName, DOB, Gender, DepartmentID) VALUES (1003, "Karthik", "2004-01-15", "Male", 101);
 
 -- Display all records
 
 SELECT * FROM Student;
-
 DESC Student;
