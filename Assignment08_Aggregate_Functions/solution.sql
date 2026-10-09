@@ -5,7 +5,7 @@ CREATE TABLE Employee (
     EmployeeID INT,
     EmployeeName VARCHAR(50),
     Department VARCHAR(50),
-    Salary INT,
+    Salary INT
 );
 
 -- Insert records
